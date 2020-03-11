@@ -69,3 +69,8 @@ body {
 .hide{
   visibility:hidden;
 }
+footer {
+  color: white;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
