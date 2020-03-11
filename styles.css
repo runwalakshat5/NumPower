@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color:black;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+
+  background-color:#f3d3d3;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 5%;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Ubuntu";
+  width:20%;
+
+}
+
+.btn1:hover {
+  background-color: black;
+  color: white;
+}
+#change-title{
+  font-family: "Ubuntu";
+  font-size: 5rem;
+  color:blue;
+}
+#display-title{
+  font-family: "Ubuntu";
+  color: white;
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+#comment{
+  margin-top: 7%;
+  color:#01024e;
+  width:70%;
+  font-size: 2rem;
+  background-color: #ecfcff;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #011F3F;
+}
+.hide{
+  visibility:hidden;
+}
